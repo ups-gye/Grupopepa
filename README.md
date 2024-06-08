@@ -1,5 +1,5 @@
 # Grupopepa
-daniel balon
-kenneth vera
-kenny campoverde
-sixto gonzales
+Kenneth Vera
+Jose Balon
+Kenny Campoverde
+Sixto Gonzales 
