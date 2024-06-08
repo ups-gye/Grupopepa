@@ -1,5 +1,5 @@
 # Grupopepa
-Kenneth Vera
+*Kenneth Vera
 Jose Balon
 Kenny Campoverde
 Sixto Gonzales 
