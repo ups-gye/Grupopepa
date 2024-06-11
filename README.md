@@ -1,4 +1,4 @@
-# Grupopepa 
+# Grupopepa 💣
 ## Lista de Integrantes:
 - Kenneth Vera
 - Jose Balon
