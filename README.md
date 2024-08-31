@@ -6,7 +6,7 @@
 - Sixto González
 # Proyecto
 ## Titulo:
-𝙻𝚘𝚊𝚍𝚒𝚗𝚐 🔄
+ # Robot Laberinto 🤖✔️
 ## Descripción:
-𝙻𝚘𝚊𝚍𝚒𝚗𝚐 🔄
+𝙻𝚘𝚊𝚍𝚒𝚗𝚐 
 
