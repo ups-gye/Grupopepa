@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laberinto con Preguntas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div id="loginContainer">
+    <h2>Inicio de Sesión</h2>
+    <input type="email" id="email" placeholder="Correo electrónico" required>
+    <input type="password" id="password" placeholder="Contraseña" required>
+    <button id="loginButton">Ingresar</button>
+  </div>
+
+
+  <div id="page">
+
+    <div id="Message-Container">
+      <div id="message">
+        <h1>¡Felicidades!</h1>
+        <p>Has terminado.</p>
+        <p id="moves"></p>
+        <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="¡Genial!" />
+      </div>
+    </div>
+
+    <br>
+    <div id="menu">
+      <div class="custom-select">
+        <label for="diffSelect">Dificultad:</label>
+        <select id="diffSelect">
+          <option value="10">Fácil</option>
+          <option value="15">Medio</option>
+          <option value="25">Difícil</option>
+          <option value="38">Extremo</option>                                      
+        </select>
+      </div>
+
+      <div class="custom-select">
+        <label for="questionSelect">Número de Preguntas:</label>
+        <select id="questionSelect">
+          <option value="5">5 Preguntas</option>
+          <option value="10">10 Preguntas</option>
+          <option value="15">15 Preguntas</option>
+          <option value="20">20 Preguntas</option>
+          <option value="25">25 Preguntas</option>
+      </select>
+      
+      </div>
+
+      <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Iniciar" />
+    </div>
+
+    <div id="view">
+      <div id="mazeContainer">
+        <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="./js/questions.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
