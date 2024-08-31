@@ -17,3 +17,5 @@ estudiantes. Ahora para avanzar en el laberinto, se espera que los
 estudiantes se diviertan y aprendan al mismo tiempo. Este proyecto también puede servir como material adicional para los maestros o 
 como una actividad opcional para sus estudiantes.
 
+# Muchas gracias por su visita a nuestro repositorio.
+# ATTE: Proyecto_Pepa✅
